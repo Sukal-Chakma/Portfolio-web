@@ -105,10 +105,6 @@ nav{
     max-width: 858px;
     vertical-align: middle;
 }
-#about{
-    padding-top: 130px;
-
-}
 #about .about-container{
     width: 71%;
     max-width: 1140px;
@@ -116,7 +112,7 @@ nav{
     text-align: center;
     background-color: #fff8f3;
     padding: 131px 156px;
-    align-items: c;
+    /* align-items: c; */
 
 }
 #about .about-container .about-info{
@@ -131,7 +127,7 @@ nav{
 .about-container .about-info h4{
     font-size: 20px;
 }
-#skills{
+#about,#skills,#resume{
     padding-top: 130px;
 
 }
@@ -163,4 +159,41 @@ nav{
     font-size: 16px;
     line-height: 28px;
     color: #757575;
+}
+#resume .resume-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 113px auto 0;
+    display: flex;
+    gap: 24px;
+}
+.resume-container .secton-title{
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;    
+}
+.resume-card{
+    max-width: 511px;
+    margin-right: 47px;
+}
+.resume-card .resume-title{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #474747;
+}
+.resume-card .card-info{
+    font-size: 20px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 20px;
+}
+.resume-card .card-text{
+    font-size: 16px;
+    font-weight: 28px;
+    margin-bottom: 20px;
+    color: #757575;
+}
+.resume-container hr{
+    margin: 30px 0;
 }
